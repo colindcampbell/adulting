@@ -1,13 +1,10 @@
 /* eslint-disable react/prop-types */
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Frame } from "./Frame";
+import { CashFlow } from "./CashFlow";
 
 const Recurring = () => {
   return <div>Recurring!</div>;
-};
-
-const CashFlow = () => {
-  return <div>Cash flow!</div>;
 };
 
 const router = createBrowserRouter([
